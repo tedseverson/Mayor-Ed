@@ -1,0 +1,68 @@
+{embed="includes/globalHead"}
+ 
+<body id="home"> 
+
+{embed="includes/sfMasthead"}
+ 
+<div id="page"><!-- everything below the masthead, including the footer -->
+	<a name="page"></a>
+	<div id="main"><!-- centers everything -->
+		
+		{embed="includes/globalNav"}
+		
+		<div id="content"><!-- the main column -->
+			<div id="ed">
+				{exp:channel:entries channel="media" limit="1" status="Homepage Feature"}
+				<div id="contentVideo">
+					{youtube}
+				</div>
+				{/exp:channel:entries}
+				
+				<!-- exp:channel:entries channel="ed" limit="1" status="English"}
+				<img src="interface/ed.jpg" alt="Mayor Ed Lee" />
+				<h3><a href="{path='/ed'}">Meet Ed</a></h3>
+				{bio_excerpt}
+				<p class="continue"><a href="{path='/ed'}">Keep Reading</a></p>
+				{/exp:channel:entries -->
+				
+				
+				<img src="interface/ed.jpg" alt="Mayor Ed Lee" />
+				<h3><a href="{path='/updates/view/vote_for_ed_lee_now'}">Vote now!</a></h3>
+				<p>Get more information about voting, find your precinct place, and how to vote right away on <a href="{path='/updates/view/vote_for_ed_lee_now'}">our voting page.</a></p>
+				<p>Learn more about helping Mayor Lee get out the vote on our <a href="{path='/gotv'}">GOTV page.</a></p>
+				 
+				
+			</div><!-- /ed -->
+			
+			<h2 class="channel updates"><!-- flag for various channels of content -->
+				<a href="{path='/updates'}">Campaign Updates</a>
+			</h2>
+			
+			{exp:channel:entries channel="updates" limit="4" status="Open"}
+			<div class="post">
+				<h3><a href="{title_permalink='updates/view'}">{title}</a></h3>
+				<h4 class="date">Posted on {entry_date format="%F %d"}</h4>
+				{update_excerpt}
+				<p class="continue"><a href="{title_permalink='updates/view'}">Keep Reading</a></p>
+			</div><!-- /post -->
+			{/exp:channel:entries}
+			
+			<div class="post">
+				<p class="continue"><a href="{path='/updates'}">More campaign updates...</a></p>
+			</div>
+			
+		</div><!-- /content -->
+						
+	{embed="includes/secondary"}
+	
+</div><!-- /page -->
+
+{embed="includes/globalFooter"}
+ 
+<!-- Scripts  --> 
+<!-- Libraries --> 
+{embed="includes/globalScripts"}
+
+ 
+</body> 
+</html>

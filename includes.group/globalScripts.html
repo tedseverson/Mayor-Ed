@@ -1,0 +1,30 @@
+<script type="text/javascript" src="{path='scripts/jQuery.js/}" language="javascript"></script>
+<script type="text/javascript" src="{path='scripts/cycle.js'}" language="javascript"></script>
+<script type="text/javascript" src="{path='scripts/jquery.tools.min.js'}" language="javascript"></script>
+
+<!-- Infield labels and Cycle  --> 
+<script type="text/javascript" src="{path='scripts/jquery.infieldlabel.min.js'}"></script> 
+<script type="text/javascript"> 
+	$(function(){ $("label").inFieldLabels(); 
+	
+	$.fn.cycle.defaults.timeout = 6000;
+				$(function() {
+				    $('#slider').after('<ul id="pager">').cycle({ 
+				        slideExpr: 'img',
+					    fx: 'fade',
+				        speed:  200,
+						timeout: 8000,
+				        pager:  '#pager',
+						after:   onAfter 
+				    });
+				});
+				function onAfter() { 
+				$('#caption').html("") 
+					.append('<span class="teaser">' + this.alt + '</span>'); 
+					}					
+	});
+</script>
+
+<!-- 3 * 140 characters of awesome --> 
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/edleeformayor.json?callback=twitterCallback2&amp;count=3"></script>

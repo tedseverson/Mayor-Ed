@@ -1,0 +1,161 @@
+/* ----- Ed Gets It Done :: Mayor Ed Lee ----- */
+/* ----- CSS typed by Ted ----- */
+/* ----- Powered by Bullseye Interactive ----- */
+
+/*  ------ Import Eric Meyer's Reset Styles ------ */
+@import url("reset.css");
+
+/* ------ Global Page Elements ------ */
+html { background: #fff; height:100.1%; width:100%; }
+body { font-family:Georgia, serif; font-size:100%; text-shadow: #DEDEDE 0px 1px 1px; color:#010a10; }
+p { line-height:1.4em; padding: 0 0 .8em 0; color:#010a10; opacity:.9; }
+p.return { padding: 1em 0; }
+p.continue { }
+strong { font-weight:bold; }
+em { font-style:italic; }
+a { text-decoration:none; 
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	color: #810a36; }
+a:hover { color: #295A93; }
+h3 { font-size:150%; line-height:1.2em; padding: 0 0 .4em 0;}
+h3 a { color:#0b5b94; }
+h3 a:hover { color: #7AB8CA; }
+h4 { line-height:1.2em; font-style:italic; } 
+blockquote { background: #F2F5F8; padding: 1em 1em .2em 1em; margin: 0 1em 1em 2em; border-left:1px dotted #678AA9; }
+
+/* ------ Masthead ------ */
+#sanFran { background: url(../interface/sanFran.jpg) no-repeat top center; overflow:hidden; width:100%; }
+#masthead { width:840px; margin: 40px auto 35px auto; overflow:hidden; }
+h1#logo { width:451px; display:inline; float:left; }
+h1#logo a { background: url(../interface/logo.png) no-repeat top center; display:block; width:451px; height:264px; text-indent:-9999px; }
+#signup { float:left; display:inline; margin: 0 0 0 22px; width:366px; }
+#signup h2 { display:block; background: url(../interface/joinUs.png) no-repeat top center; width:366px; height:62px; text-indent:-9999px; }
+
+	/* Signup Form */
+	form { display:inline; float:left; width:282px; margin: 15px 0 0 41px; }
+	form ul { display:block; width:282px; overflow:hidden; padding: 0 0 5px 0; }
+	label  { position:absolute; margin: 11px 0 0 10px; color:#709ebe; font-size:1em; }
+	input { border:1px solid #709ebe; background: url(../interface/input.png) #fff repeat-x top center; font-size:.9em; padding: 8px; color:#115b93; font-family:Georgia, serif; }
+	input:focus { background: #fff; border: 1px solid #115b93; }
+	form li, li#lFname, li#lEmail { display:inline; float:left; padding: 0 10px 0 0; }
+	input#FirstName { width: 93px;}
+	input#LastName { width: 143px; }
+	li#lLname { padding: 0; }
+	input#atjlyl-atjlyl { width: 193px; }
+	li#lZip { padding: 0; }
+	input#Zip { width: 43px; }
+	ul#formFinal { padding: 0; }
+	li#lPublic { width:183px; }
+	li#lPublic label#check { width: 131px; position: relative; margin: 0; color:#81004b; }
+	#splashSignup h2 { font-weight: bold; font-size:2em; color:#0b5b94; padding: 1em 0 .5em 0; }
+	#splashSignup a { color:#81004b; }
+	li#lSubmit { width: 60px; float:left; display:inline; }
+	input#submitButton { width: 89px; margin: 0; background: url(../interface/submit.png) repeat-x top center #d3c825; font-weight:bold; }
+	input#submitButton:active { background: #fff; }
+
+h3#contributeBtn { width: 306px; padding: 10px 0 0 27px; overflow:hidden; }
+h3#contributeBtn a { clear:both; background: url(../interface/mainContribute.png) no-repeat top center; display:block; width:306px; height:54px; text-indent:-9999px; }
+
+/* ------ Main Page elements. Sorry for the spaghetti mess ------ */
+#page { width:100%; background: url(../interface/page.png) repeat-x top center; }
+#main { width:840px; margin: 0 auto; }
+.nav { width:100%; padding: 2.5em 0 1.4em 0; }
+.languageNav { width: 100%; padding: 0 0 .4em 0; }
+.nav ul { text-align:center; }
+.languageNav ul { padding: 0 0 1.5em 0; text-align:center;}
+.nav li, .languageNav li { display:inline; padding: 0 .4em; }
+.languageNav li { font-size:.875em; color: #333; }
+.nav li a { background:#F0F3F6; border:1px solid #E5E8EB; padding: .4em .4em .5em .4em; }
+.languageNav li a { padding: .4em .4em .5em .4em; }
+
+	body#home .nav li#nHome a,
+	body#ed .nav li#nEd a,
+	body#press .nav li#nPress a,
+	body#media .nav li#nMedia a,
+	body#news .nav li#nNews a,
+	body#priorities .nav li#nPriorities a,
+	body#Events .nav li#nEvents a,
+	body#jobs .nav li#nJobs a
+	{ background: #fff; }
+.nav li a:hover { color:#285B94; background: #EBF5FF; }
+
+body#Chinese .languageNav li#nChinese a,
+body#russian .languageNav li#nRussian a,
+body#Espanol .languageNav li#nEspanol a,
+body#tagalog .languageNav li#nTagalog a,
+body#Vietnamese .languageNav li#nVietnamese a,
+body#Korean .languageNav li#nKorean a,
+body#Japanese .languageNav li#nJapanese a
+	{ color:#285B94; }
+
+
+#content { width:452px; float:left; }
+#wideContent { width: 552px; float:left; }
+.video { padding: 0 0 30px 0; }
+div#ed { padding: 0 0 30px 0; overflow:hidden; }
+div#ed img { 
+	-moz-box-shadow: 3px 3px 12px #ccc;
+	-webkit-box-shadow: 3px 3px 12px #ccc;
+	box-shadow: 3px 3px 12px #ccc;
+	float:left; display:inline; margin: 3px 30px 30px 0; }
+
+#secondary { width:306px; float:right; margin: 0 30px 0 0; padding: 0 0 30px 0; }
+#secondarySmall { width:268px; float:right; }
+
+/* ------ Slider ------ */
+#sliderContainer { padding: 0 0 30px 0; }
+#slider { position: relative; width: 306px; height: 306px; }
+#slider img { position: absolute; top: 0pt; left: 0pt; display: block; z-index: 2; }
+#caption { height:3em; position: relative; float: left; width: 306px; font-size:12px; margin: -73px 0 0 0; padding: 8px 0; z-index: 10; background:rgba(0, 0, 0, 0.7) none repeat scroll 0 0; top: 0; }
+#caption .teaser { color: #fff; padding: 0 10px; width: 200px; display:block; line-height:1.2em;}
+#pager { position: relative; float: left; top: -30px; margin: 0; z-index:100; font-size:80%;
+	left: 195px; /* subtract 20px from me for every additional slider image */ }
+#pager a { display: inline; float: left; color:#fff; padding:4px 6px; margin: 0 3px 0 0; text-decoration: none; }
+#pager .activeSlide { background: #dee6ea; color:#0b5b94; border: none; }
+
+/* ------ Section Flags ------ */
+h2.channel { display:block; width:417px; clear:both; }
+#secondary h2.channel { width:306px; }
+h2.channel a {  display:block; text-indent:-9999px; background: none; text-shadow:none; }	
+h2.updates a {  background: url(../interface/updates.png) no-repeat top center; width:417px; height:89px; }
+h2.events a {  background: url(../interface/events.png) no-repeat top center; width:417px; height:89px; }
+h2.priorities a {  background: url(../interface/priorities.png) no-repeat top center; width:417px; height:89px; }
+h2.media a {  background: url(../interface/media.png) no-repeat top center; width:417px; height:89px; }
+h2.press a {  background: url(../interface/press.png) no-repeat top center; width:417px; height:89px; }
+h2.connect a { background: url(../interface/connect.png) no-repeat top center; width:300px; height:97px; } 
+h2.tweet a { background: url(../interface/followEd.png) no-repeat top center; width:300px; height:97px; }
+h2.wideFlag a { width:300px; height:213px; float:left; padding: 0 10px 10px 0; }
+h2.jobs a { background: url(../interface/jobs-seal.png) no-repeat top center; }
+
+/* ------ Content Boxes ------ */
+.post { padding: 0 0 1.5em 0; margin: 0 0 1.7em 0; border-bottom: 1px dotted #BEDBF8; }
+.post h4 { font-size:110%; padding: .5em 0; color: #5192AC;}
+.post img { margin: 10px; padding: 10px; border: 1px solid #f1f1f1; }
+.post ul.postList { list-style-type:disc; margin: 0 0 0 1.2em;}
+.post ul.postList li { padding: 0 0 .6em 0; }
+
+#contentVideo { padding: 0 0 30px 0; }
+h4.date { font-style: italic; font-size:90%; line-height:1.2em; padding: 0 0 .6em 0; color:#4E5153; }
+img.pic { float:left; display:inline; border: 1px solid #cccccc; padding: 4px; margin: 0 1em 1em 0; }
+#bigMap { padding: 0 0 20px 0; }
+#bigMap p { width: 530px; float:right; display:inline; }
+#bigMap iframe { padding: 1em 0 0 0; }
+body#jobs #bigMap { padding: 1em 0; }
+ul.archive { list-style-type: disc; margin: 0 0 0 1em; }
+ul.archive li { padding: 0 0 1em 0; line-height:1.2em}
+.flex { padding: 0 0 2em 0; }
+
+/* ------ Socially Media ------ */
+.addthis_toolbox { opacity: .8; padding: .2em 0 0 0; clear:both; }
+#twitter_div ul li { line-height:1.2em; opacity: .9; padding: 0 0 1.3em 40px; margin: 2px 0 0 0; background: url(../interface/larry.png) no-repeat top left; }
+
+/* ------ Footer ------ */
+#footer { background: url(../interface/footer.png) repeat-x top center #fff; clear:both; overflow:hidden; margin: 52px 0 0 0; text-align:center; padding: 40px 0 60px 0; }
+#footer a { color:#376F97; }
+#footer p { color:#5197C9; font-size:75%; text-shadow:none;}
+p.disclaimer { display:inline-block; border:1px solid #629EC9; line-height:1em; padding: 10px; margin: 0 0 1em 0; } 
+p.bullseye { color:#a1c7e1; font-size:.8em; }
+body#Vietnamese p { font-family: "Palatino Linotype", "Time New Roman", serif; }

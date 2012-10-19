@@ -1,0 +1,63 @@
+/* ----- Ed Gets It Done :: Mayor Ed Lee ----- */
+/* ----- Powered by Bullseye Interactive ----- */
+
+/*  ------ Import Eric Meyer's Reset Styles ------ */
+
+@import url("reset.css");
+
+/* ------ Global Page Elements ------ */
+html { background: transparent url(../interface/tablecloth.png) repeat-x top center; height:100.1%; }
+body { font-family:Helvetica, sans-serif; font-size:small; background: url(../interface/sf.png) no-repeat top center transparent; text-shadow: #fff 0px 1px 1px; padding: 1px 0 0 0;}
+p { line-height:1.35em; padding: 0 0 1em 0; color:#0b5b94; }
+strong { font-weight:bold; }
+em { font-style:italic; }
+a { text-decoration:none; 
+	/* -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;  */
+	color: #3e60bc;}
+
+/* ------ Splash Page Elements ------ */
+h2#splashMasthead { background: url(../interface/splashMasthead.png) no-repeat top center; display:block; width:502px; height:148px; margin: 30px auto 0 auto; text-indent:-9999px; overflow:hidden;}
+#splashContain { width: 870px; margin: 0 auto; overflow:hidden; padding: 10px 20px 0 20px; display:block; }
+h1#splashLogo { display:block; float:left; width: 505px; height:225px; background: url(../interface/splashLogo.png) no-repeat top left; text-indent:-9999px;}
+#splashElements { display:inline; float:right; width:282px; }
+
+#splashContribute { clear:both; }
+
+form { display:inline; float:left; width:260px; padding: 0 0 30px 0; background: url(../interface/form.png) repeat-x bottom center; margin: 0 0 20px 0; }
+form ul { display:block; width:282px; overflow:hidden; padding: 0 0 5px 0; }
+label  { position:absolute; margin: 12px 0 0 10px; color:#709ebe; font-size:1em; }
+input { border:1px solid #709ebe; background: url(../interface/input.png) repeat-x top center #fff; font-size:.9em; padding: 8px; color:#115b93; font-family:Helvetica, sans-serif;}
+input:focus { background: #fff; border: 1px solid #115b93; }
+form li, li#lFname, li#lEmail { display:inline; float:left; padding: 0 10px 0 0; }
+input#FirstName { width: 83px;}
+input#LastName { width: 130px; }
+input#atjlyl-atjlyl { width: 170px; }
+input#Zip { width: 43px;}
+ul#formFinal { padding: 0; }
+li#lPublic { width:160px; }
+li#lPublic label#check { width: 131px; position: relative; margin: 0; color:#81004b; }
+#splashSignup h2 { font-weight: bold; font-size:2em; color:#0b5b94; padding: 1em 0 .5em 0; }
+#splashSignup a { color:#81004b; }
+li#lSubmit { width: 60px; float:left; display:inline; }
+input#submitButton { width: 89px; margin: 0; background: url(../interface/submit.png) repeat-x top center #d3c825; font-weight:bold; }
+input#submitButton:active { background: #fff; }
+
+#splashFacebook { clear:both; width:258px; background:#fff; border: 1px solid #afafaf; }
+
+#moneyPrint { clear:both; padding: 2em 0 0 0;}
+
+form#paypal { background: none; padding: 0; margin: 0;}
+form#paypal input#payBtn { background: none; border:none;}
+form#paypal td { color: #0b5b94; }
+
+h3#splashContribute { clear:both; display:block; width: 641px; margin: 0 auto; overflow:hidden; }
+h3#splashContribute a {  display:block; width:641px; height:79px; background: url(../interface/contribute.png) no-repeat top center; text-indent:-9999px; margin: 50px 0 0 0; }
+h3#splashContribute a:hover { background-position: 0 -79px; }
+
+#footer { background: url(../interface/footer.png) repeat-x top center #fff; clear:both; overflow:hidden; margin: 52px 0 0 0; text-align:center; padding: 40px 0 60px 0; }
+#footer a { color:#a1c7e1; }
+p.disclaimer { display:inline-block; border:1px solid #5197c9; line-height:1em; padding: 10px; margin: 0 0 1em 0;} 
+p.bullseye { color:#a1c7e1; font-size:.8em; }
